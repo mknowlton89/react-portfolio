@@ -7,7 +7,7 @@ export const projectData = [
         repoUrl: "https://github.com/mknowlton89/dadjokegenerator"
     },
     {
-        image: "/images/employee-directory.png",
+        image: "employee-directory.png",
         name: "Employee Directory",
         description: "This is a React app, that leverages the Random User database to generate a list of random employees. This was an activity to get more familiar with setting state, mapping arrays, and doing on-page sorting.",
         liveUrl: "https://mknowlton89.github.io/employee-directory/",

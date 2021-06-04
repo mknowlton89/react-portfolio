@@ -48,9 +48,9 @@ header h1 {
     /* z-index: 99; */
 }
 
-h1:hover {
+/* h1:hover {
 
-}
+} */
 
 button:hover {
     cursor: pointer;
@@ -150,5 +150,5 @@ a:hover {
 @media only screen and (max-width: 800px) {
   .desktop-nav {
       display: none;
-  } 
+  }
 }

@@ -1,23 +1,26 @@
 {
   "files": {
-    "main.css": "/react-portfolio-two/static/css/main.1b8a00d3.chunk.css",
-    "main.js": "/react-portfolio-two/static/js/main.f3d51240.chunk.js",
-    "main.js.map": "/react-portfolio-two/static/js/main.f3d51240.chunk.js.map",
+    "main.css": "/react-portfolio-two/static/css/main.afb2cab6.chunk.css",
+    "main.js": "/react-portfolio-two/static/js/main.8e81a86a.chunk.js",
+    "main.js.map": "/react-portfolio-two/static/js/main.8e81a86a.chunk.js.map",
     "runtime-main.js": "/react-portfolio-two/static/js/runtime-main.c574bf75.js",
     "runtime-main.js.map": "/react-portfolio-two/static/js/runtime-main.c574bf75.js.map",
-    "static/js/2.1e403cde.chunk.js": "/react-portfolio-two/static/js/2.1e403cde.chunk.js",
-    "static/js/2.1e403cde.chunk.js.map": "/react-portfolio-two/static/js/2.1e403cde.chunk.js.map",
+    "static/css/2.97503911.chunk.css": "/react-portfolio-two/static/css/2.97503911.chunk.css",
+    "static/js/2.87501fea.chunk.js": "/react-portfolio-two/static/js/2.87501fea.chunk.js",
+    "static/js/2.87501fea.chunk.js.map": "/react-portfolio-two/static/js/2.87501fea.chunk.js.map",
     "index.html": "/react-portfolio-two/index.html",
-    "static/css/main.1b8a00d3.chunk.css.map": "/react-portfolio-two/static/css/main.1b8a00d3.chunk.css.map",
-    "static/js/2.1e403cde.chunk.js.LICENSE.txt": "/react-portfolio-two/static/js/2.1e403cde.chunk.js.LICENSE.txt",
+    "static/css/2.97503911.chunk.css.map": "/react-portfolio-two/static/css/2.97503911.chunk.css.map",
+    "static/css/main.afb2cab6.chunk.css.map": "/react-portfolio-two/static/css/main.afb2cab6.chunk.css.map",
+    "static/js/2.87501fea.chunk.js.LICENSE.txt": "/react-portfolio-two/static/js/2.87501fea.chunk.js.LICENSE.txt",
     "static/media/MK-Resume-Jun-2021.a6ee30b6.pdf": "/react-portfolio-two/static/media/MK-Resume-Jun-2021.a6ee30b6.pdf",
     "static/media/contact.1d2ccfd6.png": "/react-portfolio-two/static/media/contact.1d2ccfd6.png",
     "static/media/hero.2c464c8e.png": "/react-portfolio-two/static/media/hero.2c464c8e.png"
   },
   "entrypoints": [
     "static/js/runtime-main.c574bf75.js",
-    "static/js/2.1e403cde.chunk.js",
-    "static/css/main.1b8a00d3.chunk.css",
-    "static/js/main.f3d51240.chunk.js"
+    "static/css/2.97503911.chunk.css",
+    "static/js/2.87501fea.chunk.js",
+    "static/css/main.afb2cab6.chunk.css",
+    "static/js/main.8e81a86a.chunk.js"
   ]
 }

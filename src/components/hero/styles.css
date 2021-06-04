@@ -32,6 +32,19 @@ button {
     padding-bottom: 1rem;
 }
 
+@media only screen and (max-width: 1200px) {
+    .hero img {
+    max-height: 400px;
+    }
+  }
+
+
+@media only screen and (max-width: 900px) {
+    .hero img {
+    max-height: 300px;
+    }
+  }
+
 @media only screen and (max-width: 800px) {
     .hero {
         padding: 2rem 2rem 5rem 2rem;
@@ -46,9 +59,10 @@ button {
     }
 
     .hero img {
-        max-width: 50%;
+        /* max-width: 50%; */
         /* height: auto; */
         padding-bottom: 5%;
+        /* max-height: 300px; */
     }
 
     .hero-left {
@@ -67,8 +81,8 @@ button {
           padding-top: 5%;
       }
 
-      .hero img, .contact-image img {
-          max-width: 50%;
+      .hero img {
+          /* max-width: 50%; */
           padding-bottom: 5%;
           display: block;
           margin-left: auto;
@@ -77,7 +91,7 @@ button {
   }
 
   @media only screen and (max-width: 400px) {
-    
+
 
     .hero img {
         max-width: 70%;

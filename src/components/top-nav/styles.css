@@ -135,7 +135,11 @@ a:hover {
     transform: rotate(45deg) translate(-9px, -6px);
 }
 
-@media only screen and (min-width: 801px) {
+.contact-button {
+    padding: 10px 35px;
+}
+
+@media only screen and (min-width: 901px) {
     .mobile-nav {
         display: none;
         background-color: tomato;
@@ -147,7 +151,7 @@ a:hover {
 
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 900px) {
   .desktop-nav {
       display: none;
   }

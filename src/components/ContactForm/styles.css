@@ -17,7 +17,7 @@ form button {
 }
 
 .btn {
-    padding: 10px 35px;
+    /* padding: 10px 35px; */
     border-radius: 40px;
     border: none;
     background-color: var(--dark-gray);
@@ -82,13 +82,37 @@ button:focus {
     border: none;
     border-radius: 20px;
     text-align: center;
-    width: 25%;
+    /* width: 25%; */
     margin-top: 15px;
     background-color: var(--dark-gray);
     color: var(--off-white);
     font-size: 18px;
 }
 
+.Toastify__toast-body {
+    background-color: transparent;
+    font-weight: bold;
+}
+
+.Toastify__toast.Toastify__toast--success {
+    background-color: #C7CDBA;
+}
+
+.Toastify__toast-container--bottom-left {
+    background-color: transparent;
+}
+
+@media only screen and (max-width: 1200px) {
+    .contact-image img {
+    max-height: 400px;
+    }
+  }
+
+  /* @media only screen and (max-width: 900px) {
+    .contact-image img {
+    max-height: 300px;
+    }
+  } */
 
 @media only screen and (max-width: 900px) {
     .form {
@@ -109,8 +133,8 @@ button:focus {
     }
 
     .contact-image img {
-        max-width: 50%;
-        height: auto;
+        max-height: 300px;
+        /* height: auto; */
     }
 
   }
@@ -125,10 +149,10 @@ button:focus {
 
   @media only screen and (max-width: 635px) {
       .contact-image img {
-          max-width: 50%;
+          /* max-width: 50%; */
           padding-bottom: 5%;
-          display: block;
-          margin-left: auto;
-          margin-right: auto;
+          /* display: block; */
+          /* margin-left: auto;
+          margin-right: auto; */
     }
   }

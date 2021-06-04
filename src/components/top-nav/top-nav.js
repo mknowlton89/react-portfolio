@@ -1,25 +1,38 @@
-import React, { useState } from 'react';
+import React, { useEffect } from 'react';
 import './styles.css';
 import { Link } from "react-router-dom";
 import Resume from '../../images/MK-Resume-Jun-2021.pdf';
-import Hamburger from 'hamburger-react'
+// import Hamburger from 'hamburger-react'
 
 export function TopNav() {
 
-    const [isOpen, setOpen] = useState(false)
+    // const menu_btn = document.querySelector('.hamburger');
+    // const mobile_nav = document.querySelector('.mobile-nav');
 
-    window.onload = function () {
+    // const [isOpen, setOpen] = useState(false)
 
-        const menu_btn = document.querySelector(".hamburger");
+    // window.onload = function () {
+
+    //     const menu_btn = document.querySelector('.hamburger');
+    //     const mobile_nav = document.querySelector('.mobile-nav');
+
+    //     menu_btn.addEventListener('click', function () {
+    //         menu_btn.classList.toggle('is-active');
+    //         mobile_nav.classList.toggle('is-active');
+    //     })
+
+    // }
+
+    useEffect(() => {
+
+        const menu_btn = document.querySelector('.hamburger');
         const mobile_nav = document.querySelector('.mobile-nav');
-
-
 
         menu_btn.addEventListener('click', function () {
             menu_btn.classList.toggle('is-active');
             mobile_nav.classList.toggle('is-active');
-        })
-    }
+        });
+    });
 
     return (
         <>
@@ -31,6 +44,9 @@ export function TopNav() {
                 </div>
                 <div>
                     <nav className="desktop-nav">
+                        <Link to="/">
+                            Home
+                        </Link>
                         <Link to="/projects">
                             Projects
                         </Link>
@@ -47,6 +63,9 @@ export function TopNav() {
                 </div>
             </header>
             <nav className="mobile-nav">
+                <Link to="/">
+                    Home
+                        </Link>
                 <Link to="/projects">
                     Projects
                         </Link>
@@ -55,7 +74,9 @@ export function TopNav() {
                 <a href="https://www.linkedin.com/in/michael-knowlton-81b0b15a/" target="_blank" rel="noreferrer">LinkedIn</a>
 
                 <a href={Resume} target='_blank' rel='noopener noreferrer'>Resume</a>
-                <button className="btn mobile-button" onClick="#contact">Contact</button>
+                <Link to='/contact'>
+                    <button className="btn mobile-button">Contact</button>
+                </Link>
             </nav>
         </>
     )

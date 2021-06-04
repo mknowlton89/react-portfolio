@@ -32,6 +32,10 @@ button {
     padding-bottom: 1rem;
 }
 
+.view-projects {
+    padding: 10px 35px;
+}
+
 @media only screen and (max-width: 1200px) {
     .hero img {
     max-height: 400px;

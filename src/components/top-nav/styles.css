@@ -54,8 +54,8 @@ header h1 {
 
 button:hover {
     cursor: pointer;
-    opacity: 80%;
-    transition: 500ms;
+    /* opacity: 80%; */
+    /* transition: 500ms; */
 }
 
 button:focus {
@@ -80,7 +80,7 @@ a:hover {
     padding-left: 20%;
     padding-right: 20%;
     padding-bottom: 8%;
-    transition: 0.4s;
+    transition: 0.3s;
 }
 
 .mobile-nav.is-active {
@@ -120,7 +120,7 @@ a:hover {
     height: 5px;
     background-color: black;
     margin: 6px 0px;
-    transition: 0.4s;
+    transition: 0.3s;
 }
 
 .hamburger.is-active::before {

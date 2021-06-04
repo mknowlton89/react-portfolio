@@ -11,7 +11,7 @@ export function Hero() {
                 <p>I'm a fullstack software developer based in Atlanta. I'm currently open to new opportunities. Check
                     out some of my recent projects below.</p>
                 <Link to="/projects">
-                    <button className="btn">
+                    <button className="btn view-projects">
                         View Projects
                     </button>
                 </Link>

@@ -11,9 +11,9 @@ export function ProjectCard() {
                 {projectData.map((project, key) => {
                     return (
                         <div className="project-card">
-                            <div className="secondary-project-img" key={key}>
+                            {/* <div className="secondary-project-img" key={key}>
                                 <img src={project.image} alt="" />
-                            </div>
+                            </div> */}
                             <div className="project-info">
                                 <h3>{project.name}</h3>
                                 <p>{project.description}</p>

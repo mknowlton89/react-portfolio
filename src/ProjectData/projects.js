@@ -1,5 +1,12 @@
 export const projectData = [
     {
+        image: "/images/Screen Shot 2021-04-06 at 4.28.04 PM.png",
+        name: "BOOKR",
+        description: "This is a full-stack React App built with the MERN stack that allows realtors to schedule photo shoots of homes they're selling with participating photographers. Photographers can set and control availability, and view their appointments via a React package called EJ2 Scheduler.",
+        liveUrl: "https://photo-calendar.herokuapp.com/",
+        repoUrl: "https://github.com/mknowlton89/photobookingapp-react"
+    },
+    {
         image: "/images/dadjokes.png",
         name: "Dad Joke Generator",
         description: "Built upon the icanhazdadjokes open API, this app will return a random Dad Joke on demand. If you find a joke you love, hit the Favorites button and add it to your favorites.",

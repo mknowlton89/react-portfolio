@@ -38,7 +38,7 @@ button:focus {
 .contact {
     display: flex;
     align-items: center;
-    padding: 2rem 8rem 2rem 8rem;
+    padding: 2rem 5rem 2rem 5rem;
 }
 
 .contact h3 {
@@ -68,8 +68,8 @@ button:focus {
 
 .contact-image img {
     background-color: transparent;
-    max-width: 75%;
-    height: auto;
+    width: auto;
+    max-height: 500px;
 }
 
 .message, textarea {

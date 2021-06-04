@@ -23,9 +23,8 @@ button {
 }
 
 .hero img {
-    max-width: 100%;
     width: auto;
-    /* height: auto; */
+    max-height: 500px;
 }
 
 .hero h1 {

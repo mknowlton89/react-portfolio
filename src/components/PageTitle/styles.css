@@ -1,0 +1,11 @@
+.pageTitleContainer {
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 50px;
+}
+

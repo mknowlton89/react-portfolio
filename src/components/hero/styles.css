@@ -1,0 +1,86 @@
+button {
+    margin-top: 20px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 8rem 5rem 8rem;
+    align-items: center;
+}
+
+.hero-left {
+
+    flex: 60%;
+    /* padding-left: 3rem; */
+    padding-right: 5%;
+}
+
+.hero-right {
+    flex: 40%;
+    padding-left: 5%;
+    display: flex;
+}
+
+.hero img {
+    max-width: 100%;
+    width: auto;
+    /* height: auto; */
+}
+
+.hero h1 {
+    font-size: 30px;
+    padding-bottom: 1rem;
+}
+
+@media only screen and (max-width: 800px) {
+    .hero {
+        padding: 2rem 2rem 5rem 2rem;
+    }
+  }
+
+  @media only screen and (max-width: 650px) {
+    .hero {
+        flex-direction: column;
+        padding: 2rem 2rem 5rem 2rem;
+        /* justify-content: center; */
+    }
+
+    .hero img {
+        max-width: 50%;
+        /* height: auto; */
+        padding-bottom: 5%;
+    }
+
+    .hero-left {
+        padding-right: 0;
+        order: 2;
+    }
+
+    .hero-right {
+        padding-left: 0;
+        justify-content: center;
+    }
+  }
+
+  @media only screen and (max-width: 635px) {
+      .project-info h3 {
+          padding-top: 5%;
+      }
+
+      .hero img, .contact-image img {
+          max-width: 50%;
+          padding-bottom: 5%;
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+    }
+  }
+
+  @media only screen and (max-width: 400px) {
+    
+
+    .hero img {
+        max-width: 70%;
+  }
+}

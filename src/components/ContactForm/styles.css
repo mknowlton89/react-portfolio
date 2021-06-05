@@ -27,7 +27,7 @@ form button {
 
 button:hover, .submit-btn:hover {
     cursor: pointer;
-    opacity: 80%;
+    /* opacity: 80%; */
     transition: 500ms;
 }
 

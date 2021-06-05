@@ -55,6 +55,7 @@
 
 .project-cta {
     background-color: var(--dark-green);
+    padding: 10px 35px;
 }
 
 .project-card h3 {

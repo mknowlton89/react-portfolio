@@ -16,6 +16,10 @@ button {
     padding-right: 5%;
 }
 
+.hero-left h1{
+    text-align: left;
+}
+
 .hero-right {
     flex: 40%;
     padding-left: 5%;

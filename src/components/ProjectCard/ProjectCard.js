@@ -18,7 +18,7 @@ export function ProjectCard() {
                                 <h3>{project.name}</h3>
                                 <p>{project.description}</p>
                                 <button className="btn project-cta">
-                                    <a className="btn-link" href={project.liveUrl}>GitHub Repo</a>
+                                    <a className="btn-link" href={project.liveUrl}>Live App</a>
                                 </button>
                                 <a href={project.repoUrl}>GitHub Repo</a>
                             </div>

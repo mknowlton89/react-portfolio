@@ -17,10 +17,10 @@ export function ProjectCard() {
                             <div className="project-info">
                                 <h3>{project.name}</h3>
                                 <p>{project.description}</p>
-                                <button className="btn project-cta">
-                                    <a className="btn-link" href={project.liveUrl}>Live App</a>
-                                </button>
-                                <a href={project.repoUrl}>GitHub Repo</a>
+                                <a href={project.liveUrl}>
+                                    <button className="btn project-cta">Live App</button>
+                                </a>
+                                <a className='secondary-link' href={project.repoUrl}>GitHub Repo</a>
                             </div>
                         </div>
                     )

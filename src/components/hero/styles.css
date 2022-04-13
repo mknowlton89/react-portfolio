@@ -2,6 +2,10 @@ button {
     margin-top: 20px;
 }
 
+.hero-left p {
+    font-size: 22px;
+}
+
 .hero {
     display: flex;
     justify-content: space-between;
@@ -32,7 +36,7 @@ button {
 }
 
 .hero h1 {
-    font-size: 30px;
+    font-size: 50px;
     padding-bottom: 1rem;
 }
 

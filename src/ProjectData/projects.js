@@ -1,6 +1,13 @@
 export const projectData = [
     {
         image: "/images/Screen Shot 2021-04-06 at 4.28.04 PM.png",
+        name: "Sourcely",
+        description: "This is a full-stack NextJS built to be a 'SaaS in a Box'. Meaning, it has all of the infrastructure an app needs, like a simple DB connection, authentication and authorization, and billing through Stripe. Currently, the app allows marketers to build uniform tracking links. But it was designed to be cloned, and have the business logic removed, to quickly spin up future projects.",
+        liveUrl: "https://sourcely.vercel.app",
+        repoUrl: "https://github.com/mknowlton89/linkrpro"
+    },
+    {
+        image: "/images/Screen Shot 2021-04-06 at 4.28.04 PM.png",
         name: "BOOKR",
         description: "This is a full-stack React App built with the MERN stack that allows realtors to schedule photo shoots of homes they're selling with participating photographers. Photographers can set and control availability, and view their appointments via a React package called EJ2 Scheduler.",
         liveUrl: "https://photo-calendar.herokuapp.com/signup",

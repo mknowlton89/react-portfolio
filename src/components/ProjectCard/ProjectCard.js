@@ -10,17 +10,19 @@ export function ProjectCard() {
             <section className="secondary-projects">
                 {projectData.map((project, key) => {
                     return (
-                        <div className="project-card">
+                        <div className="project-card" key={key}>
                             {/* <div className="secondary-project-img" key={key}>
                                 <img src={project.image} alt="" />
                             </div> */}
                             <div className="project-info">
                                 <h3>{project.name}</h3>
                                 <p>{project.description}</p>
-                                <a href={project.liveUrl}>
-                                    <button className="btn project-cta">Live App</button>
-                                </a>
-                                <a className='secondary-link' href={project.repoUrl}>GitHub Repo</a>
+                                <div className='project-links-container'>
+                                    <a href={project.liveUrl}>
+                                        <button className="btn project-cta">Live App</button>
+                                    </a>
+                                    <a className='secondary-link' href={project.repoUrl}>GitHub Repo</a>
+                                </div>
                             </div>
                         </div>
                     )

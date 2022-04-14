@@ -4,7 +4,7 @@ import { Home } from './screens/Home/home';
 import { Contact } from './screens/Contact/Contact';
 import { Projects } from './screens/Projects/Projects';
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
   Route
 } from "react-router-dom";

@@ -23,6 +23,10 @@ This probject can be accessed here - https://mknowlton89.github.io/react-portfol
 
 This project can be accessed here - https://mknowlton89.github.io/react-portfolio/
 
+## To Deploy
+
+Run `npm run deploy`
+
 ## <h2 id="license">License</h2>
 
 

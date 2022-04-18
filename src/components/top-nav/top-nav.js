@@ -1,27 +1,9 @@
 import React, { useEffect } from 'react';
 import './styles.css';
 import { Link } from "react-router-dom";
-import Resume from '../../images/MK-Resume-Jun-2021.pdf';
-// import Hamburger from 'hamburger-react'
+import Resume from '../../images/Michael_Knowlton_Resume.pdf';
 
 export function TopNav() {
-
-    // const menu_btn = document.querySelector('.hamburger');
-    // const mobile_nav = document.querySelector('.mobile-nav');
-
-    // const [isOpen, setOpen] = useState(false)
-
-    // window.onload = function () {
-
-    //     const menu_btn = document.querySelector('.hamburger');
-    //     const mobile_nav = document.querySelector('.mobile-nav');
-
-    //     menu_btn.addEventListener('click', function () {
-    //         menu_btn.classList.toggle('is-active');
-    //         mobile_nav.classList.toggle('is-active');
-    //     })
-
-    // }
 
     useEffect(() => {
 

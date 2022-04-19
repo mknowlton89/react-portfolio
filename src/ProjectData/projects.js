@@ -8,9 +8,9 @@ export const projectData = [
     },
     {
         image: "/images/Screen Shot 2021-04-06 at 4.28.04 PM.png",
-        name: "BOOKR",
+        name: "Photo Booking App",
         description: "This is a full-stack React App built with the MERN stack that allows realtors to schedule photo shoots of homes they're selling with participating photographers. Photographers can set and control availability, and view their appointments via a React package called EJ2 Scheduler.",
-        liveUrl: "https://photo-calendar.herokuapp.com/signup",
+        liveUrl: "https://photo-calendar.herokuapp.com/login",
         repoUrl: "https://github.com/mknowlton89/photobookingapp-react"
     },
     {
